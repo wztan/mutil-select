@@ -1,0 +1,38 @@
+/*样式初始化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,q,blockquote,th,td{margin: 0;padding: 0;}
+body {text-align: left;font-family:Microsoft Yahei, Tahoma, Helvetica, Arial,sans-serif;font-size: 14px;color:#272727;}
+ul,ol{list-style: none}
+input, select, textarea,button {font-size: 12px;resize: none;outline: 0;font-family:Microsoft Yahei, Tahoma, Helvetica, Arial,sans-serif;}
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {border:none;padding:0;}
+input[type=text]::-ms-clear{display: none;}
+input[type=text]{box-sizing:content-box;}
+img {border: 0;vertical-align: middle; max-width: 100%;}
+table{border-collapse: collapse;border-spacing:0;}
+table td{table-layout: fixed;word-break: break-all;word-wrap: break-word;}
+table td.pub-operate{white-space: nowrap;}
+a{color:#2b2b2b;outline:none;blr:expression(this.onFocus=this.blur()); text-decoration:none;}
+a:hover{color:#2b2b2b;}
+.clearfix{zoom: 1;}
+.clearfix:after {content:" ";clear: both;display: block;height: 0;visibility: hidden;}
+.clearall{clear: both;}
+.page-content{margin:50px 0 0 50px;}
+.icon{background: url("../img/icon.png") no-repeat;}
+
+/*select 下拉多选样式*/
+.region-sel-box{position:relative;float: left;cursor: pointer;}
+.region-box{border:1px solid #d6d6d6;line-height: 33px;}
+.region-com{float: left;background: #fff;width:221px;min-height: 33px;max-height: 85px;overflow-y: auto;}
+#J_terminal_pop .region-com{width:243px;}
+.region-com ul{padding-bottom: 4px;}
+.region-com li{float:left;margin-top:4px;margin-left: 4px;padding:0 6px;line-height: 23px;background: #ff4200;border-radius: 25px;color:#fff;font-size: 13px;}
+.region-com li i{display: inline-block;margin-left: 3px;width: 9px;height: 9px;background-position: -240px -35px;cursor: pointer;}
+.region-right{float: left;background: #fff;width:27px;}
+.region-right.disabled{background: #eee;}
+.region-right i{display: inline-block;margin-top:13px;margin-left:8px;width: 10px;height: 5px;background-position: -200px -35px;}
+.region-list{position: absolute;width:248px;background: #fff;border-left:1px solid #d6d6d6;border-right:1px solid #d6d6d6;border-bottom:1px solid #d6d6d6;display: none;z-index: 200;max-height: 210px;overflow-y: auto;}
+.region-list li{line-height: 30px}
+.region-list li:hover{background: #eeeeee;}
+.region-list li .text{float: left;padding-left:8px;}
+.region-list li.selected .text{color:#ff4200;}
+.region-list li.selected .check{background-position: -160px -35px;border:none;}
+.region-list .check{float: right;width:17px;height: 17px;margin-top:6px;margin-right: 9px;cursor: pointer;background-position: -280px -35px;}
